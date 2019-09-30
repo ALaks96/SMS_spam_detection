@@ -1,2 +1,9 @@
-# SMS_spam_detection
-This project was the final evaluation of my Python class at Polytechnique. My goal was to create a classifier to detect spams in sms using two methodologies. First methodology was to use feature engineering and XGBoost. Second methodology was a classic approach to use NLP methods associated to a Naïve bayes classifier. 
+# SMS spam detection
+
+This project was the final evaluation of my Python class at Polytechnique that I developed with a colleague and friend.
+
+Our goal was to create a classifier to detect spams in sms using two methodologies. 
+
+**First methodology** :  Use feature engineering (regex to detect smileys, uppercase words, etc.) which we passed to an XGBoost classifier.
+
+**Second methodology** : Classic approach to use NLP methods (TF-IDF, Bag of words, pre-processing) associated to a Naïve bayes classifier. 
